@@ -28,7 +28,11 @@ class Gallery {
 }
 let gallery = new Gallery()
 
-
+gallery.createPedestal(
+    "Attendance Calculator",
+    "calculator.png",
+    "alishase.github.io/frekwencja"
+);
 gallery.createPedestal("Tetris", "tetris.png", "tetrisjs/tetris.html")
 gallery.createPedestal("Online Organiser", "trello.png", "trellomy/index.html")
 gallery.createPedestal("Hungry People", "hungry.png", "hungry people/index.html")
