@@ -77,3 +77,36 @@ body {
     color: #f55a5a;
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1.title {
+        font-size: 45px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .gallery-element {
+        width: 90%;
+        margin: 0;
+        margin-bottom: 65px;
+    }
+
+    .preview {
+        width: 92%;
+        object-fit: fill;
+    }
+
+    .pedestal {
+        height: 100px;
+    }
+}
