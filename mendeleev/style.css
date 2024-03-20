@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: lightslategray;
+    margin-left: 5%;
+    margin-right: 5%;
+    font: 0.695vw sans-serif;
+    text-align: center;
+    height: 721px;
+}
+
+.el {
+    border: 4px solid black;
+    height: 6.05vw;
+    margin: -2px;
+}
+
+.perna {
+    width: 2.4%;
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: aliceblue;
+}
+
+.perna h3 {
+    padding: 100% 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.8vw;
+}
+
+.colna {
+    height: 0.95vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: 4px solid black;
+    color: red;
+    background-color: aliceblue;
+}
+
+.colna h2 {
+    width: 100%;
+    font-size: 0.75vw;
+}
+
+.el h1,
+.el h2,
+.el p {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 1.65vw;
+}
+
+h2 {
+    font-size: 0.76vw;
+}
+
+.col {
+    width: 5.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.a .el {
+    background-color: rgb(98, 197, 98);
+}
+
+.b .el {
+    background-color: rgb(243, 241, 106);
+}
+
+#title {
+    display: inline-block;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    padding: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 3px solid black;
+    border-radius: 25px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#hydr {
+    border-bottom: 4px solid red;
+    border-left: 4px solid red;
+}
+
+#ber {
+    border-top: 4px solid red;
+}
+
+#lit {
+    border-top: 4px solid red;
+}
+
+#bor {
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+
+}
+
+#sil {
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+#al {
+    border-top: 4px solid red;
+}
+
+#ger {
+    border-top: 4px solid red;
+}
+
+#msh {
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+#sur {
+    border-top: 4px solid red;
+    border-right: 4px solid red;
+}
+
+#tel {
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+#pol {
+    border-top: 4px solid red;
+    border-right: 4px solid red;
+}
+
+#asta {
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+#tenes {
+    border-top: 4px solid red;
+    border-right: 4px solid red;
+}
+
+#ogan {
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+}
