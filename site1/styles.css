@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: "Ubuntu";
+	color: black;
+	padding: 0;
+	margin: 0;
+    background-color: antiquewhite; 
+}
+
+.main-gallery{
+    background-color: cornsilk;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:stretch;
+
+}
+
+.pics{
+    cursor: pointer;
+}
+
+h2{
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 60px;
+}
+
+a h2{
+    font-size: 50px;
+}
+
+h2.bruh{
+    margin-left: 25px;
+    text-align: left;
+    font-size: 45px;
+    color: goldenrod;
+}

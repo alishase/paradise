@@ -1,0 +1,438 @@
+body {
+	font-family: "Ubuntu";
+	color: black;
+	padding: 0;
+	margin: 0;
+	background-image: url("fox-7.jpg");
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a h2{
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.entering{
+	color: white;
+	font-size: 40px;
+	padding-top: 5%;
+	width: 100%;
+	height: 660px;
+}
+
+
+
+.main-button{
+	text-transform: uppercase;
+	margin-left: 20%;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+		  -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+	  width: 220px;
+	  height: 70px;
+	  cursor: pointer;
+	  background: #6dd6d1;
+	  border: none;
+	  border-radius: 50px;
+	  box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+	  font-family: 'Damion', cursive;
+	  color: white;
+	  font-size: 16px;
+	  transition: 500ms;
+  }
+  
+  button:hover {
+		  border: 2px solid #6dd6d1;
+	  animation: hueRotation 2s linear infinite;
+  }
+  
+  @keyframes hueRotation {
+	  to {filter: hue-rotate(360deg);}
+  }
+  
+  button:focus {
+	  outline: none;
+  }
+
+.main-items{
+	margin-right: 10%;
+	margin-left: 55%;
+}
+.main-items {
+	text-align: center-right;
+}
+
+.some-sections{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+
+.sections-start{
+	padding-top: 15px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.sec-things{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-right: 8%;
+	padding-left: 8%;
+	padding-bottom: 45px;
+}
+
+.vid, .pht, .ill, .std {
+	background-color: #f2eeed;
+	padding-top: 20px;	
+	width: 20%;
+	border: 5px solid #f2eeed;
+	text-align: center;
+	border-radius: 10px;
+	padding-bottom: 15px;
+	display: block;
+	transition: .3s;
+	fill: #8087d5;
+	box-shadow: 0px 0px 5px 3px #f2eeed;
+}
+
+figcaption, .about-text-container p{
+	color: #77777d;
+	padding: 5px;
+}
+
+.vid:hover, .pht:hover, .ill:hover, .std:hover{
+	background-color: #000000;
+	border: 5px solid #000000;
+	color: white;
+	fill: white;
+	box-shadow: 0px 0px 5px 5px #000000;
+}
+
+.sec-things-icons{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.gallery-section{
+	background-color: #ebebeb;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	height:760px;
+}
+
+.content{
+	margin: auto;
+	width: 100%;
+}
+
+.row-padding{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-top: 10px;
+	
+}
+
+.opacity{
+	opacity: 40%;
+	transition-duration: .3s;
+}
+
+.opacity:hover{
+	opacity: 100%;
+}
+
+.opacity-off{
+	opacity: 100%;
+}
+
+.gallery-container{
+	padding-left: 10.5%;
+	padding-right: 10.5%;
+	padding-bottom: 30px;
+}
+
+.gallery-section a{
+	padding-left: 14.5%;
+	font-size: 25px;
+	text-decoration: underline;
+	color: dimgray;
+}
+
+.gallery-section h2{
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 45px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.more-about{
+	background-color: #fcfbfa;
+}
+
+.about-container{
+	padding-top: 70px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 10.5%;
+	padding-right: 10.5%;
+	padding-bottom: 30px;
+}
+
+.about-text-container{
+	margin-left: 5%;
+}
+
+.about-cont{
+	border-radius: 5px;
+	width: 360px;
+	height: 326px;
+}
+
+.about-text-container h2 {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.about-text-container{
+	font-size: 20px;
+}
+
+.about-main-text-container {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+footer {
+	color: #a8aef3;
+	text-shadow: 1px 2px 3px #000;
+	margin-top: 0;
+	background-color: #7279c7;
+}
+
+footer h4{
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 3px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-top: 15px;
+}
+
+.footer-copyright{
+	display: flex;
+	justify-content: space-around;
+}
+
+.socials li {
+	background-color: #6369ac;
+	display: block;
+}
+
+.footer-social {
+	margin: auto;
+	width: 145px;
+	padding-bottom: 5px;
+}
+
+.footer-social h3{
+	margin: 0;
+	margin-bottom: 4px;
+	text-align: center;
+}
+.social-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 43px;
+	height: 43px;
+	
+	background-color: #6369ac;
+}
+
+.footer-social ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 141px;
+	margin: 0px auto;
+	padding: 0;
+	
+	list-style: none;
+}
+
+.social-button:hover,
+.social-button:focus{
+	background-color: #4c5080;
+}
+
+.social-button:focus path,
+.social-button:hover path{
+	fill: #fff;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+	position:absolute;
+	
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	
+	white-space: nowrap;
+	
+	clip-path: inser(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+@media screen and (min-width:540px){
+	.entering{
+		height: 1100px;
+	}
+
+	.gallery-section{
+		height: 500px;
+	}
+
+}
+
+@media screen and (min-width:750px){
+	.entering{
+		height: 900px;
+	}
+
+	.gallery-section{
+		height: 500px;
+	}
+
+}
+
+@media screen and (min-width:840px){
+	.entering{
+		height: 880px;
+	}
+
+	.gallery-section{
+		height: 580px;
+	}
+
+}
+
+@media screen and (min-width:940px){
+	.entering{
+		height: 860px;
+	}
+
+	.gallery-section{
+		height: 640px;
+	}
+
+}
+
+@media screen and (min-width:1050px){
+	.entering{
+		height: 840px;
+	}
+
+	.gallery-section{
+		height: 680px;
+	}
+
+}
+
+@media screen and (min-width:1400px){
+	.entering{
+		height: 800px;
+	}
+
+	.main-items{
+		margin-top: 70px;
+	}
+	.gallery-section{
+		height: 850px;
+	}
+
+}
+
+@media screen and (min-width:1600px){
+	.entering{
+		height: 750px;
+	}
+
+	.main-items{
+		margin-top: 90px;
+	}
+	.gallery-section{
+		height: 900px;
+	}
+
+}
+
+@media screen and (min-width:1900px){
+	.entering{
+		height: 960px;
+	}
+
+	.main-items{
+		margin-top: 200px;
+	}
+	.gallery-section{
+		height: 1090px;
+	}
+
+}
+
+
+@media screen and (min-width:2400px){
+	.entering{
+		height: 960px;
+	}
+
+	body{
+		font-size: 2rem;
+	}
+
+	.about-text-container{
+		font-size: 40px;
+	}
+
+	.main-items{
+		margin-top: 200px;
+	}
+	.gallery-section{
+		height: 1190px;
+	}
+
+}

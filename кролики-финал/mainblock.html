@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="mainblock.css">
+    <title>Гайд юного айтиновца</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <img src="imgs/logo.png">
+        <a id="mainer" class="pcv">Главная</a>
+        <a id="html" class="pcv">HTML</a>
+        <a id="css" class="pcv">CSS</a>
+        <a id="js" class="pcv">JS</a>
+        <a id="plana" class="pcv">Карьера</a>
+        <a id="order" class="pcv">Записаться</a>
+        <svg class="svg-icon" role="img" height="10" width="10" viewBox="0 0 10 10" aria-hidden="true">
+            <path class="dropbtn" d="m1 7h8v2h-8zm0-3h8v2h-8zm0-3h8v2h-8z" onclick="myFunction()"   />
+        </svg>
+        <div id="myDropdown" class="dropdown-content">
+            <a id="mainer1">Главная</a>
+            <a id="html1">HTML</a>
+            <a id="css1">CSS</a>
+            <a id="js1">JS</a>
+            <a id="plan1">Карьера</a>
+            <a id="order1">Записаться</a>
+        </div>
+    </div>
+
+    <main class="maincont">
+        <div class="container-m">
+            <div class="textcont">
+                <h1>
+                    Web-технологии
+                </h1>
+                <h3>
+                    Основы Веб-разработки и создание одностраничных сайтов с использованием JavaScript
+                </h3>
+            </div>
+            <img src="imgs/mainbg.jpg" alt="" class="mainimg">
+        </div>
+    </main>
+
+    <article id="cards">
+        <h1>Вот чему вам предстоит научиться</h1>
+        <section>
+            <div class="HTML">
+                <img src="imgs/HTML.png" alt="HTML logo">
+                <p>
+                    - язык разметки. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+                </p>
+                <button id="htmlb">
+                    Подробнее
+                </button>
+            </div>
+            <div class="CSS">
+                <img src="imgs/CSS.png" alt="CSS logo">
+                <p>
+                    - язык описания внешнего вида веб-страницы, написанной с использованием языка разметки HTML. CSS используется создателями веб-страниц для задания цветов, шрифтов, стилей.
+                </p>
+                <button id="cssb">
+                    Подробнее
+                </button>
+            </div>
+            <div class="JS">
+                <img src="imgs/JS.png" alt="JS logo">
+                <p>
+                    - язык програмирования, на наших курсах вы будете его применять в основном для "оживления" страницы, добавления ей функционала, хотя талантливые разработчики способны делать даже браузерные игры с его помощью.
+                </p>
+                <button id="jsb">
+                    Подробнее
+                </button>
+            </div>
+        </section>
+    </article>
+    <div class="line"></div>
+    <article id="about">
+        <section class="HTML">
+            <div class="pic">
+                <h2>
+                    HTML
+                </h2>
+                <img src="imgs/HTML1.jpg" alt="картинка с html кодом">
+            </div>
+            <div class="text">
+                <p>
+                    HyperText Markup Language – язык гипертекстовой разметки. Это набор команд, следуя которым, браузеры выводят на монитор различные документы и странички сайтов. Покажем на примере, что такое язык разметки HTML:
+                </p>
+                <ul>
+                    <li id="header">
+                        Это заголовок
+                    </li>
+                    <li id="paragraph">
+                        Это текстовый параграф
+                    </li>
+                    <li id="link">
+                        <a href="#about">Это ссылка</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="CSS">
+            <div class="text">
+                <p>
+                    Cascading Style Sheets — это каскадные таблицы стилей. По сути — язык, который отвечает за описание внешнего вида HTML-документа. Подавляющее большинство современных веб-сайтов работают на основе связки HTML+CSS.<br> Теперь ответим
+                    на вопрос о том, что делает CSS. Всё просто: если HTML структурирует контент на странице, то CSS позволяет отформатировать его, сделать более привлекательным для читателя.
+                </p>
+            </div>
+            <div class="pic">
+                <h2>
+                    CSS
+                </h2>
+                <img src="imgs/CSS1.png" alt="картинка с css кодом">
+            </div>
+        </section>
+        <section class="JS">
+            <div class="pic">
+                <h2>
+                    JS
+                </h2>
+                <img src="imgs/JS1.jpg">
+            </div>
+            <div class="text">
+                <p>JavaScript это язык, который позволяет вам применять сложные вещи на web странице — каждый раз, когда на web странице происходит что-то большее, чем просто её статичное отображение — отображение периодически обновляемого контента, или
+                    интерактивных карт, или анимация 2D/3D графики, или прокрутка видео в проигрывателе, и т.д. — можете быть уверены, что скорее всего, не обошлось без JavaScript.</p>
+            </div>
+        </section>
+    </article>
+    <div class="line"></div>
+    <section id="plan">
+        <img src="imgs/before.png" alt="изображение школьника">
+        <ol>
+            <li>
+                1. Выбираете направление
+            </li>
+            <li>
+                2. Оставляете заявку
+            </li>
+            <li>
+                3. Идёте на пробное занятие <span style="font-size:30px">&#128187;</span>
+            </li>
+            <span class="darrow">&#x2193;</span>
+            <li>
+                4. Ходите первый год, получаете необходимый минимум
+            </li>
+            <li>
+                5. Ходите второй год, становитесь начинающим специалистом
+            </li>
+            <li>
+                6. Заканчиваете третий уровень с достойным портфолио <span style="font-size:25px">&#128188;</span>
+            </li>
+            <span class="darrow">&#x2193;</span>
+            <li>
+                7. Находите работу в крупной IT компании
+            </li>
+            <li>
+                8. Начинаете зарабатывать
+            </li>
+            <li>
+                9. Профит! <span style="font-size:30px">&#128176;</span>
+            </li>
+        </ol>
+        <img src="imgs/after.png" alt="изображение богатого человека">
+    </section>
+    <section class="forms">
+        <div class="formcont">
+            <form action="">
+                <div class="point">
+                    <label for="namef">Имя*</label>
+                    <input type="text" required id="namef" placeholder="Имя">
+                </div>
+
+                <div class="point">
+                    <label for="phone phoneb">Телефон*</label>
+                    <input id="phone" type="tel" name="phone" required/>
+                    <input id="phoneb" type="tel" name="phone" placeholder="8 (029) 491-19-11" required/>
+                </div>
+                <div class="point">
+                    <label for="sel">Тип оплаты</label>
+                    <select name="select" id="sel" required>
+                        <option value="1">Сразу весь курс (скидка 10%)</option>
+                        <option value="2">Помесячная оплата</option>
+                      </select>
+                </div>
+                <span class="cost">Итоговая сумма за год: <br><span id="cost"></span></span>
+                <div class="point">
+                    <input type="checkbox" name="" id="check" required>
+                    <label for="check">Даю согласие на обработку персональных данных в соответствии с <span id="conf" style="text-decoration:underline;">Политикой компании</span></label>
+                </div>
+                <button id="submitb" type="submit" onclick="myFunc()">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+    <section class="numb">
+        <h2><span>Остались вопросы?</span> Звоните в любое время <b>+375 55 566 49 00</b></h2>
+    </section>
+    <footer>
+        <div class="footer">
+            <h1 id="footer-text-1">Iteen academy.
+                <hr>
+                <h1 id="footer-text-2"> 2023 © Copyright: Все права защищены</h1>
+            </h1>
+            <div id="block-cc"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px"><path d="M 21.580078 7 C 13.541078 7 7 13.544938 7 21.585938 L 7 42.417969 C 7 50.457969 13.544938 57 21.585938 57 L 42.417969 57 C 50.457969 57 57 50.455062 57 42.414062 L 57 21.580078 C 57 13.541078 50.455062 7 42.414062 7 L 21.580078 7 z M 47 15 C 48.104 15 49 15.896 49 17 C 49 18.104 48.104 19 47 19 C 45.896 19 45 18.104 45 17 C 45 15.896 45.896 15 47 15 z M 32 19 C 39.17 19 45 24.83 45 32 C 45 39.17 39.169 45 32 45 C 24.83 45 19 39.169 19 32 C 19 24.831 24.83 19 32 19 z M 32 23 C 27.029 23 23 27.029 23 32 C 23 36.971 27.029 41 32 41 C 36.971 41 41 36.971 41 32 C 41 27.029 36.971 23 32 23 z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px"><path d="M48,7H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h17V38h-6v-7h6v-5c0-7,4-11,10-11c3.133,0,5,1,5,1v6h-4 c-2.86,0-4,2.093-4,4v5h7l-1,7h-6v17h8c4.418,0,8-3.582,8-8V15C56,10.582,52.418,7,48,7z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px"><path d="M 31.970703 7.0019531 C 24.760703 7.0019531 18.268078 10.056453 13.705078 14.939453 L 22.029297 27.314453 C 23.791297 23.586453 27.573703 21 31.970703 21 L 54.423828 21 C 50.352828 12.71 41.829703 7.0019531 31.970703 7.0019531 z M 11.560547 17.572266 C 8.6725469 21.649266 6.9707031 26.625953 6.9707031 32.001953 C 6.9707031 44.411953 16.014141 54.703156 27.869141 56.660156 L 33.34375 42.90625 C 32.89275 42.96225 32.436703 43.001953 31.970703 43.001953 C 27.431249 43.001953 24.082516 40.570225 21.853516 36.326172 L 21.853516 36.324219 L 11.560547 17.572266 z M 55.701172 24.138672 L 40.677734 25.294922 C 42.110734 27.152922 42.972656 29.473953 42.972656 32.001953 C 42.972656 33.728953 42.563516 35.355547 41.853516 36.810547 L 31.380859 56.986328 C 31.577859 56.991328 31.773703 57.001953 31.970703 57.001953 C 45.777703 57.001953 56.970703 45.808953 56.970703 32.001953 C 56.971703 29.253953 56.520172 26.611672 55.701172 24.138672 z M 32.320312 24.857422 A 7.151 7.151 0 0 0 29.234375 25.392578 A 7.151 7.151 0 0 0 34.707031 38.607422 A 7.151 7.151 0 0 0 32.320312 24.857422 z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64px" height="64px"><path d="M61.932,15.439c-2.099,0.93-4.356,1.55-6.737,1.843c2.421-1.437,4.283-3.729,5.157-6.437	c-2.265,1.328-4.774,2.303-7.444,2.817C50.776,11.402,47.735,10,44.366,10c-6.472,0-11.717,5.2-11.717,11.611	c0,0.907,0.106,1.791,0.306,2.649c-9.736-0.489-18.371-5.117-24.148-12.141c-1.015,1.716-1.586,3.726-1.586,5.847	c0,4.031,2.064,7.579,5.211,9.67c-1.921-0.059-3.729-0.593-5.312-1.45c0,0.035,0,0.087,0,0.136c0,5.633,4.04,10.323,9.395,11.391	c-0.979,0.268-2.013,0.417-3.079,0.417c-0.757,0-1.494-0.086-2.208-0.214c1.491,4.603,5.817,7.968,10.942,8.067	c-4.01,3.109-9.06,4.971-14.552,4.971c-0.949,0-1.876-0.054-2.793-0.165C10.012,54.074,16.173,56,22.786,56	c21.549,0,33.337-17.696,33.337-33.047c0-0.503-0.016-1.004-0.04-1.499C58.384,19.83,60.366,17.78,61.932,15.439"/></svg>
+
+                <h2>Наши контакты указанны ниже:</h2>
+                <h1 id="call-number">+375 55 566 49 00<img id="mms" src="imgs/icons8-call-26.png"></h1>
+                <h1 id="call-number">+375 55 569 41 88<img id="mms" src="imgs/icons8-call-26.png"></h1>
+            </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

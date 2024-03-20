@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bgpel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navpel {
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #b8b0b09f;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 40px;
+    left: 40px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 75%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: auto;
+    border-radius: 0px 0px 40px 40px;
+}
+
+svg {
+    transition: .2s;
+    margin-left: 35px;
+    padding-top: 4px;
+}
+
+svg:hover {
+    fill: aliceblue;
+    cursor: pointer;
+}
+
+.navbar button,
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0px solid;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+    font-size: 26px;
+    transition: .1s;
+}
+
+.navbar-nav button {
+    padding-right: 30px;
+}
+
+a.nav-link {
+    padding-right: 50px;
+    color: #d46bba;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #b1549a;
+}
+
+a.nav-link:hover {
+    cursor: default;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.navbar-nav button:hover {
+    color: rgb(201, 200, 200);
+}
+
+.sec-1 {
+    background-color: #df73c4;
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.row-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.row-menu .costs {
+    margin-right: 40px;
+}
+
+.row-menu2 .costs {
+    margin-left: 40px;
+}
+
+.costs h2,
+.names h2 {
+    margin-top: 20px;
+}
+
+.main {
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main img {
+    width: 115%;
+    height: 580px;
+    margin-top: 150px;
+}
+
+.main .maincont {
+    margin-top: 240px;
+    padding-bottom: 10%;
+    font-size: 65px;
+    margin-right: 70px;
+}
+
+.maincont p {
+    display: inline;
+    font-size: 45px;
+    font-weight: 400;
+    color: aliceblue;
+    padding: 8px;
+}
+
+.maincont h2 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+h2.titlem {
+    padding-top: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sec-2 {
+    background-color: #c567ae;
+    color: aliceblue;
+    padding-bottom: 60px;
+}
+
+.newscont {
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.newscont img {
+    width: 480px;
+    height: 360px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.newstext {
+    background-color: #b35e9d;
+    border-radius: 20px;
+    color: rgb(206, 211, 214);
+    font-size: 35px;
+    font-family: 'Ubuntu';
+    padding: 40px;
+}
+
+.newstext h2 {
+    color: aliceblue;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.newstext:nth-child(1) {
+    font-size: 40px;
+}

@@ -1,0 +1,797 @@
+/* База */
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Навигация */
+
+.topnav {
+    background-color: #fff;
+    overflow: visible;
+    z-index: 3;
+    position: fixed;
+    width: 70%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    border-bottom: 4px solid #647fec;
+}
+
+.topnav a {
+    padding-top: 10px;
+    float: left;
+    display: block;
+    color: #299af3;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: .4s;
+}
+
+.svg-icon {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: -10%;
+    top: 75px;
+    background-color: #f1f1f1;
+    width: 120%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    border-bottom: 1px solid #fff;
+    color: white;
+    background-color: #3aade3;
+    padding: 25px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.dropdown-content a:first-child {
+    border-top: 1px solid #fff;
+}
+
+.show {
+    display: flex;
+}
+
+.topnav a:hover {
+    background-color: #3aade3;
+    color: white;
+    cursor: pointer;
+}
+
+.topnav img {
+    float: left;
+    height: 60px;
+    margin-right: 12%;
+}
+
+.topnav img:hover {
+    cursor: pointer;
+}
+
+
+/* Основное */
+
+.maincont {
+    padding-top: 150px;
+    background-color: #299af3;
+    width: 100%;
+}
+
+.container-m {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0px 0px 0px 4%;
+}
+
+.textcont h1 {
+    font-weight: 700;
+    font-size: 45px;
+    text-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+}
+
+.textcont h3 {
+    font-size: 35px;
+}
+
+.textcont {
+    padding-top: 70px;
+    width: 55%;
+    color: white;
+    word-break: keep-all;
+    padding-left: 12%;
+    padding-bottom: 20px;
+}
+
+.textcont h1,
+.textcont h3 {
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.mainimg {
+    width: 45%;
+    border-radius: 70% 70% / 550px 0px 0px 0px;
+    object-fit: none;
+}
+
+
+/* Карточки */
+
+article#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+#cards h1 {
+    margin-top: 20px;
+    font-size: 45px;
+    color: #3b8dcf;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 8px rgb(0 0 0 / 20%)
+}
+
+#cards section {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+#cards div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    border-radius: 25px;
+    background-color: #299af3;
+    color: #fff;
+    font-size: 25px;
+}
+
+#cards div img,
+#cards div p {
+    margin-bottom: 20px;
+}
+
+#cards img {
+    height: 200px;
+}
+
+#cards p {
+    font-size: 20px;
+}
+
+#cards button {
+    width: 175px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-size: 25px;
+    transition-duration: .4s;
+    justify-self: flex-end;
+    font-weight: 700;
+}
+
+.HTML button {
+    background-color: #e44d26;
+}
+
+.CSS button {
+    background-color: #4262e6;
+    color: #000;
+}
+
+.JS button {
+    background-color: #f0db4f;
+}
+
+#cards button:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.line {
+    background-color: #49abf7;
+    height: 5px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+/* Блоки Языков */
+
+article#about {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#about section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#about ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#about p {
+    font-size: 25px;
+    margin: 0px;
+    color: #fff;
+}
+
+#about .HTML div {
+    background-color: #e44d26;
+}
+
+#about .CSS div {
+    background-color: #264DE4;
+}
+
+#about .JS div {
+    background-color: #e8cc13;
+}
+
+#about div.pic {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about div.text {
+    width: 70%;
+    padding: 20px;
+}
+
+#about div.pic h2 {
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+#about div.pic img {
+    width: 80%;
+    padding-bottom: 80px;
+}
+
+#about li {
+    font-size: 30px;
+    color: white;
+    margin: 10px 0px;
+    list-style: none;
+}
+
+#about div:first-child {
+    border-radius: 25px 0px 0px 25px;
+    margin: 0px 10px 0px 0px;
+}
+
+#about div:last-child {
+    border-radius: 0px 25px 25px 0px;
+}
+
+#header::before {
+    content: "<h1>";
+    color: #0590ff;
+}
+
+#header::after {
+    content: "</h1>";
+    color: #0590ff;
+}
+
+#paragraph::before {
+    content: "<p>";
+    color: #0590ff;
+}
+
+#paragraph::after {
+    content: "</p>";
+    color: #0590ff;
+}
+
+#link::before {
+    content: "<a>";
+    color: #0590ff;
+}
+
+#link::after {
+    content: "</a>";
+    color: #0590ff;
+}
+
+
+/* План */
+
+#plan {
+    width: 60%;
+    background-color: #299af3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    line-height: 1.9;
+    border-radius: 35px;
+    margin-bottom: 40px;
+    padding: 20px 10px;
+}
+
+#plan ol {
+    list-style-type: none;
+}
+
+#plan img {
+    width: 15.5%;
+}
+
+#plan img:first-of-type {
+    justify-self: start;
+}
+
+#plan img:last-of-type {
+    justify-self: end;
+    align-self: end;
+}
+
+#plan li {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+
+span.darrow {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    width: 100%;
+}
+
+
+/* Форма */
+
+section.forms {
+    background-color: #299af3;
+    padding-bottom: 80px;
+}
+
+#conf:hover {
+    cursor: pointer;
+}
+
+section.forms {
+    padding-top: 40px;
+    width: 100%;
+    background-color: #299af3;
+}
+
+.formcont {
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: stretch;
+}
+
+.point {
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input#namef,
+select {
+    font-size: 20px;
+    border-radius: 60px;
+    text-align: center;
+    height: 40px;
+    border: 4px solid #3b8dcf;
+    width: 60%;
+}
+
+label {
+    font-size: 24px;
+}
+
+input#phone {
+    width: 100%;
+}
+
+.iti {
+    text-align: center;
+    width: 61%;
+    height: 50px;
+}
+
+input#phone {
+    height: 50px;
+    border: 4px solid #3b8dcf;
+    border-radius: 60px;
+    padding-left: 15%;
+    font-size: 20px;
+    width: 100%;
+}
+
+.iti__selected-flag {
+    padding-left: 23px;
+    border-radius: 60px 0px 0px 60px;
+}
+
+input#check {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+}
+
+form button {
+    color: white;
+    background-color: #3b8dcf;
+    align-self: center;
+    font-size: 25px;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    border-radius: 20px;
+    transition-duration: .4s;
+}
+
+#phoneb {
+    display: none;
+}
+
+.point:last-child {
+    width: 50%;
+}
+
+form button:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+form span.cost {
+    align-self: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3aade3;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form span#cost {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/* Номер */
+
+.numb h2 {
+    padding: 60px 0px 60px 0px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.numb h2 span {
+    word-break: keep-all;
+    word-wrap: normal;
+    font-size: 45px;
+    color: #3b8dcf;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+
+/* Футер */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+footer {
+    width: 100%;
+}
+
+.footer {
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3B8DCF;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    fill: white;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+}
+
+.footer svg {
+    margin-left: 15px;
+    transition-duration: 0.5s;
+    margin-top: 10px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer svg:hover {
+    fill: #000;
+    scale: 1.08;
+    cursor: pointer;
+}
+
+.footer svg:active {
+    fill: rgb(48, 47, 47);
+    scale: 0.8;
+}
+
+#mms {
+    margin-left: 9px;
+    transition: 0.9s;
+}
+
+#call-number:hover {
+    color: rgb(48, 47, 47);
+}
+
+#call-number {
+    transition-duration: 0.45s;
+    border-width: 100px;
+    width: auto;
+}
+
+#call:hover {
+    color: rgb(48, 47, 47);
+}
+
+#footer-text-1 {
+    padding-bottom: 40px;
+}
+
+hr {
+    height: 3px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 1px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+}
+
+
+/* Адаптив */
+
+@media screen and (max-width: 764px) {
+    html {
+        width: fill-available;
+        margin: 0;
+        padding: 0;
+    }
+    article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 1.8%;
+    }
+    article#about {
+        width: 100%;
+    }
+    .topnav a.pcv {
+        display: none;
+    }
+    .topnav {
+        padding: 5px;
+        padding-left: 20px;
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 6px solid #647fec;
+    }
+    .svg-icon {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        position: relative;
+        padding: 0px;
+        margin-top: 7px;
+        margin-right: 5%;
+        scale: 1.1;
+        cursor: pointer;
+        fill: #3B8DCF;
+    }
+    .maincont {
+        width: 100%;
+        text-align: center;
+    }
+    .textcont h1 {
+        margin-bottom: 60px;
+    }
+    .textcont h3 {
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+    .container-m {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .textcont {
+        width: 90%;
+        padding: 0;
+        word-break: keep-all;
+    }
+    .maincont img {
+        display: none;
+    }
+    #cards section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #cards h1 {
+        width: 80%;
+        font-size: 35px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #cards section div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .line {
+        width: 100%;
+    }
+    #about {
+        align-items: center;
+    }
+    #about section {
+        margin-bottom: 40px;
+        width: 100%;
+        justify-content: stretch;
+    }
+    #about section p {
+        font-size: 19.8px;
+    }
+    #about div.pic {
+        width: 10%;
+        word-break: break-word;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #about div.pic h2 {
+        font-size: 30px;
+    }
+    #about div.pic img {
+        display: none;
+    }
+    #about li {
+        font-size: 18px;
+    }
+    #about ul {
+        margin-top: 20px;
+    }
+    #plan {
+        width: 90%;
+    }
+    #plan img {
+        display: none;
+    }
+    #plan li {
+        font-size: 20px;
+        margin-left: 6%;
+    }
+    .formcont {
+        margin: auto;
+        width: 95%;
+    }
+    input#phone {
+        display: none;
+    }
+    .iti {
+        display: none;
+    }
+    input#phoneb {
+        display: block;
+        font-size: 20px;
+        border-radius: 60px;
+        text-align: center;
+        height: 40px;
+        border: 4px solid #3b8dcf;
+        width: 60%;
+    }
+    form select#sel option {
+        font-size: 15px;
+    }
+    form input#check {
+        height: 80px;
+        width: 80px;
+    }
+    section.numb {
+        width: 100%;
+    }
+    h2 {
+        width: 80%;
+        margin: auto;
+    }
+    .footer {
+        width: 100%;
+        align-self: start;
+        line-height: 1.8;
+    }
+    .footer * {
+        margin-bottom: 20px;
+    }
+}
