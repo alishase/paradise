@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    width: 99%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.point {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+form#form4 {
+    width: 45%;
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid deeppink;
+    border-radius: 20px;
+    background-color: rgba(159, 231, 50, 0.411);
+}
+
+#form4 {
+    margin: auto;
+}
+
+.form h2,
+.form h4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form4 label {
+    color: rebeccapurple;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form4 input,
+#form4 select {
+    border: 0px;
+    border-bottom: 3px solid deeppink;
+    color: rebeccapurple;
+    height: 50px;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(159, 231, 50, 0.411);
+    transition: .1s;
+    margin-top: 7px;
+}
+
+#form4 input:focus,
+#form4 select:focus {
+    outline: none;
+    border: 3px solid rgba(238, 238, 238, 0.623);
+    background-color: rgba(238, 238, 238, 0.623);
+    border-bottom: 3px solid deeppink;
+}
+
+#form4 label:last-child {
+    color: deeppink;
+}
+
+input#checkp1 {
+    width: 70px;
+}
+
+input:focus {
+    scale: .98;
+}
+
+.form button {
+    background-color: darkorange;
+    color: white;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px 30px 5px 30px;
+    transition: .2s;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+#map {
+    width: 90%;
+    height: 420px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input#submit {
+    margin-top: 30px;
+    background-color: greenyellow;
+    color: deeppink;
+    border: 3px solid deeppink;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 20px;
+}
+
+input#submit:hover {
+    box-shadow: 0px 0px 20px deeppink;
+}
+
+h1 {
+    color: rgb(192, 26, 115);
+    font-size: 2.4rem;
+}
+
+.line {
+    height: 3px;
+    width: 104%;
+    position: relative;
+    margin: 20px 0px 20px 0px;
+    background-color: deeppink;
+}
+
+a {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contlog * {
+    margin-top: 10px;
+}
+
+.pass {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 20%;
+}
+
+svg {
+    padding-left: 3%;
+    fill: black;
+    display: block;
+    transition: .3s ease;
+}
+
+svg#vis {
+    padding-top: 15px;
+    padding-left: 3%;
+}
+
+svg:hover {
+    cursor: pointer;
+    fill: deeppink;
+}
+
+svg:active {
+    fill: deeppink;
+}

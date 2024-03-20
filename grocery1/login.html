@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="cont contlog" style="margin-top: 100px;">
+        <form action="http://fe.it-academy.by/TestForm.php" method="get" id="form4">
+            <h1>Вход</h1><br>
+
+            <div class="line"></div>
+            <div class="point">
+                <label for="telp1">Телефон (формат 375-44-123-45-67)</label>
+                <input type="tel" name="telp" id="telp1" required placeholder="375-44-123-45-67" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            </div>
+            <div class="point">
+                <label for="numbp1">Пароль </label>
+                <div class="pass">
+                    <input type="password" name="numbp" id="numbp1" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" style="width: 70%; margin-right: 10px;">
+                    <svg id="vis1" xmlns="http://www.w3.org/2000/svg" width="4%" height="4%" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16"> <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/> <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" style="padding-top: 0px;"/> </svg>
+                </div>
+            </div>
+            <div class="point">
+                <input type="submit" value="войти" id="submit">
+                <a href="registration.html" target="_blank">Зарегистрироваться</a>
+            </div>
+
+        </form>
+
+
+    </div>
+</body>
+
+</html>
