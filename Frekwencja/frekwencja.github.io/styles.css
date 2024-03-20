@@ -1,0 +1,66 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Изменено для вертикального выравнивания */
+}
+
+.calculator {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px; /* Отступ между калькуляторами */
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.flatpickr-calendar {
+    font-family: "Arial", sans-serif;
+}
+
+div {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Стили для календаря Flatpickr */
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange {
+    background-color: #4caf50 !important;
+    border-color: transparent !important;
+    color: white !important;
+}
+
+.flatpickr-day:hover {
+    background: #f0f0f0;
+}
+
+h3 {
+    font-size: 1.4em;
+}

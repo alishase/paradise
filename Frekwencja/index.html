@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Калькулятор посещаемости</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="image-removebg-preview.png"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    </head>
+    <body>
+        <div id="attendance-calculator" class="calculator">
+            <h3>Калькулятор посещаемости</h3>
+            <input
+                type="number"
+                id="attended-lessons"
+                placeholder="Посещённые уроки"
+            />
+            <input
+                type="number"
+                id="total-lessons"
+                placeholder="Всего уроков"
+            />
+            <div>
+                Процент посещаемости: <span id="attendance-percentage">0</span>%
+            </div>
+            <input type="text" id="calendar" />
+            <div>
+                Новый процент посещаемости:
+                <span id="new-attendance-percentage">0</span>%
+            </div>
+        </div>
+        <div id="desired-attendance-calculator" class="calculator">
+            <h3>Калькулятор количества дней которые надо посетить</h3>
+            <input
+                type="number"
+                id="desired-attendance"
+                placeholder="Желаемый процент посещаемости"
+            />
+            <div>
+                Необходимо посетить следующих дней подряд:
+                <span id="required-days">0</span>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
