@@ -78,7 +78,7 @@ body {
     transform: scale(1.05);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     .container {
         width: 100%;
         padding: 0;
