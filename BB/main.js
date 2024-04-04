@@ -1,33 +1,3 @@
-// Импортируем модуль для выполнения HTTP-запросов
-const fetch = require("node-fetch");
-
-// Функция для перевода текста с использованием Google Translate API
-async function translateText(text, targetLanguage) {
-    const apiKey = "ВАШ_API_КЛЮЧ";
-    const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
-    const data = {
-        q: text,
-        target: targetLanguage,
-    };
-
-    try {
-        const response = await fetch(url, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
-        });
-        const jsonResponse = await response.json();
-        // Вывод переведённого текста
-        console.log(jsonResponse.data.translations[0].translatedText);
-    } catch (error) {
-        console.error("Ошибка при переводе текста:", error);
-    }
-}
-
-// Пример использования функции для перевода текста с английского на русский
-translateText("Hello, world!", "ru");
 
 let body = document.querySelector("body");
 let container = document.createElement("div");
