@@ -53,18 +53,7 @@ button:hover {
     border: 3px solid rgb(17, 71, 17);
 }
 
-@media screen and (max-width: 500px) {
-    img {
-        width: 100%;
-    }
-
-    .cont {
-        min-width: 80%;
-        max-width: 90%;
-    }
-}
-
-@media screen and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 900px) {
     img {
         width: 70%;
     }
@@ -72,5 +61,16 @@ button:hover {
     .cont {
         min-width: 60%;
         max-width: 70%;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 0px) {
+    img {
+        width: 100%;
+    }
+
+    .cont {
+        min-width: 80%;
+        max-width: 90%;
     }
 }
