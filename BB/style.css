@@ -53,7 +53,7 @@ button:hover {
     border: 3px solid rgb(17, 71, 17);
 }
 
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
     img {
         width: 70%;
     }
@@ -64,7 +64,7 @@ button:hover {
     }
 }
 
-@media (max-width: 500px) and (min-width: 0px) {
+@media (max-width: 600px) and (min-width: 0px) {
     img {
         width: 100%;
     }
