@@ -43,3 +43,4 @@ gallery.createPedestal("Mendeleev's Table", "mendeleev.png", "mendeleev/index.ht
 gallery.createPedestal("Buba Juzz blog", "bbjz.png", "site1/index.html")
 gallery.createPedestal("Breaking Bad quotes", "BB/break.jpg", "BB/index.html")
 gallery.createPedestal("Gra więcej lub mniej", "", "gra/index.html")
+gallery.createPedestal("TODO app", "", "todoapp/todoapp/index.html")
